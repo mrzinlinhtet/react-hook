@@ -11,7 +11,7 @@ const ComponentOne = () => {
 
   return (
     <div>
-      <h1 className={toggle ? "introText" : "changeTextColor"} onClick={handleClick}>Hello React</h1>
+      <h1 className={toggle ? "introText" : "changeTextColor"}>Hello React</h1>
       {
         toggle && <ComponentTwo />
       }

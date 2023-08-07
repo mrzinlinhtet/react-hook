@@ -2,6 +2,7 @@ import React from "react";
 import Counter from "./components/Counter";
 import Input from "./components/Input";
 import ComponentOne from "./components/ComponentOne";
+import ComponentEffect from "./components/effect/ComponentEffect";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <hr /> */}
       <Input />
       <ComponentOne />
+      <ComponentEffect />
     </div>
   );
 };

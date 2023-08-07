@@ -7,14 +7,14 @@ const Input = () => {
 
   const handleClick = () => {
     // console.log(inputRef.current.value);
-    console.log(text);
+    // console.log(text);
   };
 
   const handleChange = (e) => {
     setText(e.target.value)
     console.log(e.target.value);
   };
-  console.log('render');
+  // console.log('render');
   return (
     <div>
       <input value={text} onChange={handleChange} type="text" />

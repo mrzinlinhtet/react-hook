@@ -4,7 +4,7 @@ import { useState,memo } from "react";
 const Counter = ({data}) => {
   const [count, setCount] = useState(0);
 
-  console.log("Counter render");
+  // console.log("Counter render");
 
   const handleAdd = (x) => setCount((pre) => pre + x);
   const handleRemove = (x) => setCount((pre) => pre - x);
